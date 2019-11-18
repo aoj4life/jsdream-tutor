@@ -7,6 +7,11 @@ app.get('/', function(req, res) {
   res.render('index', {title: 'My Node.js Application'})
 })
 
+
+app.get('/basic', function(req, res) {
+  // render to views/index.ejs template file
+  res.render('index', {title: 'My Node.js Application'})
+})
 /**
 * We assign app object to module.exports
 *
