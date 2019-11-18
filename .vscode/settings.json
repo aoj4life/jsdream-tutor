@@ -1,0 +1,7 @@
+{
+  "eslint.autoFixOnSave": true,
+  "jslint.options": {
+    "esversion": 6
+  },
+  "eslint.lintTask.enable": true
+}

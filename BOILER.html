@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <div id="output"></div>
+        <input type="text" id="outpt" />
+        <div id="output2"></div>
+        <button type="button" class="btn btn-primary">submit</button>
+      </div>
+    </div>
+    <aside>
+      <article></article>
+    </aside>
+    <table>
+      <th>
+        <tr>
+          <td>
+            <form action="#">
+              <div>
+                <label for="">fullname</label>
+                <input type="text" name="" id="" />
+              </div>
+
+              <div>
+                <label for="">fullname</label>
+                <input type="text" name="" id="" />
+              </div>
+
+              <div>
+                <label for="">fullname</label>
+                <input type="text" name="" id="" />
+              </div>
+            </form>
+          </td>
+        </tr>
+      </th>
+    </table>
+    <section>
+      <div id="messages"></div>
+      <h1>Cron page</h1>
+      <div>
+        <label for="">chat</label>
+        <input type="text" id="message-input" />
+        <div id="messages2"></div>
+      </div>
+
+      <script type="text/javascript">
+        setInterval(function() {
+          // setInterval function will run every 5sec {5000}
+          $.get("http://localhost/test/test.php", function(data) {
+            console.log(data);
+          });
+        }, 5000);
+      </script>
+    </section>
+
+    <script src="studyNote.js"></script>
+    <script src="main.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
